@@ -1,3 +1,8 @@
 <resources>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_anonymous">Login Anonymously</string>
+    <string name="dont_have_account">Dont have an account? Register</string>
     <string name="app_name">Eating</string>
 </resources>

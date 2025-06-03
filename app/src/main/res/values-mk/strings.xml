@@ -1,0 +1,8 @@
+<resources>
+    <string name="email">Е-пошта</string>
+    <string name="password">Лозинка</string>
+    <string name="login">Најави се</string>
+    <string name="login_anonymous">Најави се анонимно</string>
+    <string name="dont_have_account">Немаш корисничка сметка? Регистрирај се</string>
+    <string name="app_name">Eating</string>
+</resources>

@@ -13,7 +13,7 @@
             android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp" />
 
@@ -21,7 +21,7 @@
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:minHeight="48dp" />
 
@@ -29,20 +29,19 @@
             android:id="@+id/loginButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:text="@string/login" />
 
         <Button
             android:id="@+id/anonymousLoginButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login Anonymously" />
+            android:text="@string/login_anonymous" />
 
-        <!-- Add the TextView for registration prompt -->
         <TextView
             android:id="@+id/toRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account? Register"
+            android:text="@string/dont_have_account"
             android:paddingTop="16dp" />
 
     </LinearLayout>

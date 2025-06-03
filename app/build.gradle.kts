@@ -74,8 +74,11 @@ dependencies {
     implementation("androidx.room:room-runtime:2.6.1")
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.runtime.livedata)
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+
 
     // === Testing ===
     testImplementation(libs.junit)

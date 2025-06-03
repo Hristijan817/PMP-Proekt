@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225155959377",
+    "project_id": "eating-f3604",
+    "storage_bucket": "eating-f3604.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225155959377:android:78a19948bb918d216f0670",
+        "android_client_info": {
+          "package_name": "com.example.eating"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlGjGJu0jeOvZ_7lJjAbFNOeIjlwsX7s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

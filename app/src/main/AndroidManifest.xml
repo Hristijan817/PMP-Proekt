@@ -32,6 +32,20 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.Eating" />
 
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            tools:ignore="WrongManifestParent" />
+        <provider android:authorities="com.facebook.app.FacebookContentProvider.YOUR_APP_ID"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"
+            tools:ignore="WrongManifestParent" />
+
+
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
 
 </manifest>

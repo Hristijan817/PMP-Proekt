@@ -57,6 +57,11 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
+    implementation ("com.google.firebase:firebase-auth:22.3.0")
+    implementation ("com.google.android.gms:play-services-auth:21.0.0")
+    implementation ("com.facebook.android:facebook-android-sdk:latest.release")
+
+
     // === Firebase (using BOM to manage versions) ===
     implementation(platform("com.google.firebase:firebase-bom:33.14.0"))
     implementation("com.google.firebase:firebase-analytics-ktx")

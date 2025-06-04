@@ -1,6 +1,8 @@
 package com.example.eating.navigation
 
-sealed class BottomNavScreen(val route: String, val title: String) {
-    object Recipes : BottomNavScreen("recipes", "Recipes")
-    object GroceryList : BottomNavScreen("grocery", "Grocery")
+import com.example.eating.R
+
+sealed class BottomNavScreen(val route: String, val titleResId: Int) {
+    object Recipes : BottomNavScreen("recipes", R.string.nav_recipes)
+    object GroceryList : BottomNavScreen("grocery", R.string.nav_grocery)
 }

@@ -1,8 +1,31 @@
+<!-- res/values-mk/strings.xml -->
 <resources>
+    <string name="default_web_client_id">225155959377-evbk31if174tpcvnh3865u9d3k47em7c.apps.googleusercontent.com</string>
+    <string name="app_name">Направи Си Јадење</string>
+    <string name="login">Најави се</string>
+    <string name="register">Регистрирај се</string>
     <string name="email">Е-пошта</string>
     <string name="password">Лозинка</string>
-    <string name="login">Најави се</string>
-    <string name="login_anonymous">Најави се анонимно</string>
-    <string name="dont_have_account">Немаш корисничка сметка? Регистрирај се</string>
-    <string name="app_name">Eating</string>
+    <string name="google_login">Најави се со Google</string>
+    <string name="facebook_login">Најави се со Facebook</string>
+    <string name="already_have_account">Веќе имате профил? Најавете се</string>
+    <string name="recipes">Рецепти</string>
+    <string name="grocery">Листа за Купување</string>
+    <string name="language">Јазик</string>
+    <string name="english">Англиски</string>
+    <string name="macedonian">Македонски</string>
+    <string name="login_anonymous">Најави се како гостин</string>
+    <string name="dont_have_account">Немате профил? Регистрирајте се</string>
+    <string name="nav_recipes">Рецепти</string>
+    <string name="nav_grocery">Листа за купување</string>
+    <string name="title">Наслов</string>
+    <string name="description">Опис</string>
+    <string name="add_recipe">Додади рецепт</string>
+    <string name="delete">Избриши</string>
+    <string name="new_item">Нов производ</string>
+    <string name="add">Додади</string>
+
+
+
+
 </resources>

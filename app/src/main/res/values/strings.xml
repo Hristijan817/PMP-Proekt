@@ -1,8 +1,33 @@
+<!-- res/values/strings.xml -->
 <resources>
+    <string name="default_web_client_id">225155959377-evbk31if174tpcvnh3865u9d3k47em7c.apps.googleusercontent.com</string>
+    <string name="app_name">DIY Eats</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="login">Login</string>
-    <string name="login_anonymous">Login Anonymously</string>
+    <string name="google_login">Sign in with Google</string>
+    <string name="facebook_login">Sign in with Facebook</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="recipes">Recipes</string>
+    <string name="grocery">Grocery</string>
+    <string name="english">English</string>
+    <string name="language">Language</string>
+    <string name="macedonian">Macedonian</string>
+    <string name="login_anonymous">Login as Guest</string>
     <string name="dont_have_account">Dont have an account? Register</string>
-    <string name="app_name">Eating</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_grocery">Grocery List</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="delete">Delete</string>
+    <string name="new_item">New Item</string>
+    <string name="add">Add</string>
+
+
+
+
+
+
 </resources>

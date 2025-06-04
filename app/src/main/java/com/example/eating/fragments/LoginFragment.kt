@@ -61,9 +61,9 @@ class LoginFragment : Fragment() {
 
         val emailEditText = view.findViewById<EditText>(R.id.emailEditText)
         val passwordEditText = view.findViewById<EditText>(R.id.passwordEditText)
-        val loginBtn = view.findViewById<Button>(R.id.loginButton)
+        val loginBtn = view.findViewById<Button>(R.id.emailLoginBtn)
         val anonBtn = view.findViewById<Button>(R.id.anonymousLoginButton)
-        val googleBtn = view.findViewById<Button>(R.id.googleLoginButton) // Make sure this exists in XML
+        val googleBtn = view.findViewById<Button>(R.id.googleLoginBtn) // Make sure this exists in XML
         val toRegisterText = view.findViewById<TextView>(R.id.toRegister)
 
         loginBtn.setOnClickListener {
